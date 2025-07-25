@@ -29,3 +29,4 @@ NOGROUP No such key 'stream.orders' or consumer group 'g1' in XREADGROUP with GR
 ```text
 XGROUP CREATE stream.orders g1 $ MKSTREAM
 ```
+注意：nignix必须全英文，且需要手动创建一个temp文件夹
