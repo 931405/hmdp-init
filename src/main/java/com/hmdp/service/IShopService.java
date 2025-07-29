@@ -21,4 +21,10 @@ public interface IShopService extends IService<Shop> {
      */
     Result queryById(Long id);
 
+    /**
+     * 使用redis实现商铺更新
+     * @param shop
+     * @return
+     */
+    Result updateByShopId(Shop shop);
 }

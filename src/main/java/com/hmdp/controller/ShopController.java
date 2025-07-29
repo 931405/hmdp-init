@@ -58,7 +58,8 @@ public class ShopController {
     @PutMapping
     public Result updateShop(@RequestBody Shop shop) {
         // 写入数据库
-        shopService.updateById(shop);
+        //shopService.updateById(shop);
+        shopService.updateByShopId(shop);
         return Result.ok();
     }
 
